@@ -6,7 +6,7 @@ angular.module('appRoutes', []).config(function($stateProvider, $urlRouterProvid
         .state('home', {
             url: '/',
             templateUrl: 'views/home.html',
-            controller: 'MainController as mainCtrl'
+            controller: 'MainController as MainCtrl'
         })
 
         .state('page1', {
