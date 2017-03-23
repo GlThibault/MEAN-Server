@@ -1,5 +1,6 @@
-angular.module('SecondCtrl', []).controller('SecondController', function($scope) {
+angular.module('SecondCtrl', []).controller('SecondController', function() {
 
-	$scope.tagline = 'Second page!';
+	var vm = this;
+	vm.tagline = 'Second page!';
 
 });

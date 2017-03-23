@@ -1,5 +1,6 @@
-angular.module('MainCtrl', []).controller('MainController', function($scope) {
+angular.module('MainCtrl', []).controller('MainController', function() {
 
-	$scope.tagline = 'Main page!';	
+	var vm = this;
+	vm.tagline = 'Main page!';	
 
 });

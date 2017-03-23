@@ -1,5 +1,6 @@
-angular.module('FirstCtrl', []).controller('FirstController', function($scope) {
+angular.module('FirstCtrl', []).controller('FirstController', function() {
 
-	$scope.tagline = 'First page!';	
+	var vm = this;
+	vm.tagline = 'First page!';	
 
 });
